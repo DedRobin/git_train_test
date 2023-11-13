@@ -66,3 +66,19 @@ Emoji
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
+Thanks myself -->
+@https://github.com/DedRobin
+
+Footnotes
+The first footnote[^1].
+The second footnote[^2].
+
+[^1]I'm the first foornote.
+[^2]I'm the second foornote.
+
+[!Note]
+This is a note!
+[!IMPORTANT]
+Here is an important information!
+[!WARNING]
+Be careful.
