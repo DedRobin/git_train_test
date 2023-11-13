@@ -78,7 +78,9 @@ The second footnote[^2].
 
 > [!NOTE]
 > This is a note!
+
 > [!IMPORTANT]
 > Here is an important information!
+
 > [!WARNING]
 > Be careful.
