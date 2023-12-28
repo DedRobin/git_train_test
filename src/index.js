@@ -1,3 +1,8 @@
-import './style.css';
+import styles from './style.css';
+import buttonStyle from './components/button.css'
 
-console.log("Hello world")
+const element = document.getElementById('test');
+const button = document.getElementById('button');
+
+element.classList.add(...styles.test2.split(' '));
+button.classList.add(...buttonStyle.normal.split(' '));

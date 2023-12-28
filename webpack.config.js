@@ -15,10 +15,18 @@ module.exports = {
                 loader: 'html-loader'
             },
             {
-                test: /\.css$/,
+                test: /\.[c|sa|sc]ss$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    "css-loader",
+                    {
+                        loader: "css-loader",
+                        options: {
+                            modules: {
+                                localIdentName: '[path][name]__[local]',
+                            }
+                        }
+                    },
+                    ,
                 ],
             },
         ]
