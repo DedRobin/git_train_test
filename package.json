@@ -1,11 +1,13 @@
 {
     "name": "git_train_test",
     "scripts": {
-        "build": "webpack"
+        "build": "webpack",
+        "lint": "npx eslint . --ext .js",
+        "prettier": "npx prettier . --write"
     },
     "hasky": {
         "hooks": {
-            "pre-commit": "",
+            "pre-commit": "npm run prettier && npm run lint",
             "pre-push": ""
         }
     },
