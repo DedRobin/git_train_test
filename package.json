@@ -1,7 +1,7 @@
 {
     "name": "git_train_test",
     "scripts": {
-        "build": "webpack",
+       "build": "webpack",
         "lint": "npx eslint . --ext .js",
     "prettier": "npx prettier . --write"
     },
