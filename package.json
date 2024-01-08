@@ -2,13 +2,19 @@
     "name": "git_train_test",
     "scripts": {
         "build": "webpack",
-        "lint": "npx eslint . --ext .js",
+        "lint": "npx eslint . --ext",
         "prettier": "npx prettier . --write"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "npm run lint"
+            "pre-commit": "lint-staged"
         }
+    },
+    "lint-staged": {
+        "*.js": [
+            "npm run prettier",
+            "git add"
+        ]
     },
     "devDependencies": {
         "css-loader": "^6.8.1",

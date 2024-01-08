@@ -1,6 +1,6 @@
 console.log('Hello')
 {
-    console.log(' world')
+    console.log('world')
 }
 function test() {
     console.log('test')
