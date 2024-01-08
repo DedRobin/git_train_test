@@ -3,7 +3,7 @@
     "scripts": {
         "build": "webpack",
         "lint": "npx eslint . --ext .js",
-        "prettier": "npx prettier . --write"
+    "prettier": "npx prettier . --write"
     },
     "husky": {
         "hooks": {
