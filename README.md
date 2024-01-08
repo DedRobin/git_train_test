@@ -1,13 +1,16 @@
 # heading1
+
 ## heading2
+
 ### heading3
+
 **bold**
 
 _italic_
 
 ~~this sentence is crossout~~
 
-***Bold and Italic***
+**_Bold and Italic_**
 
 This is <sub>subscript</sub> text
 
@@ -18,6 +21,7 @@ This is <sup>superscript</sup> text
 use `git status` to check
 
 Basic command
+
 ```
 git status
 git add
@@ -25,10 +29,12 @@ git commit
 ```
 
 Function
+
 ```javascript
 console.log("Hello, world!");
 alert("Alert!);
 ```
+
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 Link --> [Google.com](https://www.google.by/?hl=ru).
@@ -40,16 +46,19 @@ Relative link --> [test_text.txt](test_dir/test_text.txt).
 ![picture](https://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_1920,c_limit/phonepicutres-TA.jpg)
 
 The first list
-- one
-- two
-- three
+
+-   one
+-   two
+-   three
 
 The second list
+
 1. One
 2. Two
 3. Three
 
 Nested list
+
 1. Label
     - The first nested element
     - The second nested element
@@ -58,9 +67,10 @@ Nested list
         - ugu
 
 Task list
-- [x] The first task
-- [ ] The second task
-- [ ] The third task
+
+-   [x] The first task
+-   [ ] The second task
+-   [ ] The third task
 
 Emoji
 

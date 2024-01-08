@@ -1,17 +1,25 @@
 {
-  "name": "git_train_test",
-  "scripts": {
-    "build": "webpack"
-  },
-  "devDependencies": {
-    "css-loader": "^6.8.1",
-    "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.6.0",
-    "mini-css-extract-plugin": "^2.7.6",
-    "style-loader": "^3.3.3",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.3.3",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
-  }
+    "name": "git_train_test",
+    "scripts": {
+        "build": "webpack"
+    },
+    "hasky": {
+        "hooks": {
+            "pre-commit": "",
+            "pre-push": ""
+        }
+    },
+    "devDependencies": {
+        "css-loader": "^6.8.1",
+        "hasky": "^3.0.2",
+        "html-loader": "^4.2.0",
+        "html-webpack-plugin": "^5.6.0",
+        "mini-css-extract-plugin": "^2.7.6",
+        "prettier": "^3.1.1",
+        "style-loader": "^3.3.3",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.3.3",
+        "webpack": "^5.89.0",
+        "webpack-cli": "^5.1.4"
+    }
 }
