@@ -5,8 +5,8 @@
         "lint": "npx eslint . --ext .js",
         "prettier": "npx prettier . --write"
     },
-    
-    "hasky": {
+
+    "husky": {
         "hooks": {
             "pre-commit": "npm run prettier",
             "pre-push": ""
