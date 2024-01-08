@@ -2,7 +2,7 @@
     "name": "git_train_test",
     "scripts": {
         "build": "webpack",
-        "lint": "npx eslint . --ext",
+        "lint": "npx eslint . --ext .js",
         "prettier": "npx prettier . --write"
     },
     "husky": {
