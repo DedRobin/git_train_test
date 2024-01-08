@@ -5,7 +5,7 @@
         "lint": "npx eslint . --ext .js",
         "prettier": "npx prettier . --write"
     },
-    "husky": {
+    "hasky": {
         "hooks": {
             "pre-commit": "lint-staged"
         }
